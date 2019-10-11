@@ -1,0 +1,7 @@
+version: '3'
+services:
+  server-only:
+    build: .
+    image: mediarcj/server-only
+    volumes: 
+      - /app/node_modules/
